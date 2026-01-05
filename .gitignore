@@ -1,0 +1,53 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Model artifacts
+model/*.pkl
+model/*.joblib
+
+# Data (raw data often large; keep processed data tracked if desired)
+data/raw/
+
+# Environment files
+.env
+.env.*
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
