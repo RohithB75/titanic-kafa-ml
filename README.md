@@ -119,15 +119,3 @@ Note: If you already run Kafka differently (Confluent, cloud), ensure `bootstrap
 
 - If Kafka connection fails, confirm Docker containers are up (`docker ps`) and ports are not blocked.
 - If the model file is not found, ensure `model/train_model.py` completed successfully and created `model/titanic_model.pkl`.
-
-## Next steps (suggested)
-
-- Add a small script to run preprocessing end-to-end and generate `data/processed/cleaned_titanic.csv` automatically.
-- Add logging and error handling to `kafka/consumer.py` for production readiness.
-
----
-
-If you'd like, I can also:
-- run the training locally and verify the model file is produced,
-- add a small `Makefile` or `run.sh` to simplify commands, or
-- create a minimal README badge and usage examples for Docker Hub deployment.
