@@ -109,7 +109,7 @@ Note: If you already run Kafka differently (Confluent, cloud), ensure `bootstrap
   - Provides a simple UI to enter passenger features and requests a prediction from the saved model.
   - Uses `@st.cache_resource` to cache loading of `model/titanic_model.pkl`.
 
-## Important notes and assumptions
+## Important notes
 
 - The Streamlit app and Kafka consumer expect `model/titanic_model.pkl` to exist. Run `model/train_model.py` first.
 - The producer and consumer use `localhost:9092` — ensure Docker Compose or another Kafka instance exposes that address.
